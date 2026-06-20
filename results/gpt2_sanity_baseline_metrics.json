@@ -1,0 +1,21 @@
+{
+  "eval_loss": 0.3323555171340704,
+  "accuracy": 0.888,
+  "precision_weighted": 0.8888785991686216,
+  "recall_weighted": 0.888,
+  "f1_weighted": 0.8883426320016785,
+  "eval_samples": 1000,
+  "eval_time_sec": 4.485976353054866,
+  "throughput_samples_per_sec": 222.91691290771487,
+  "latency_ms_per_sample": 4.485976353054866,
+  "train_time_sec": 52.0191094269976,
+  "global_steps": 313,
+  "model_name": "openai-community/gpt2",
+  "dataset": "fancyzhx/ag_news",
+  "train_samples": 5000,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "num_epochs": 1,
+  "max_gpu_memory_allocated_gb": 3.1999,
+  "max_gpu_memory_reserved_gb": 3.5664
+}

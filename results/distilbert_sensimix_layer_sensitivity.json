@@ -1,0 +1,201 @@
+{
+  "method": "SensiMix",
+  "sensitivity_proxy": "mean squared gradient of Linear weight on calibration data",
+  "calibration_samples": 512,
+  "binary_fraction": 0.3,
+  "sensitive_bits": 8,
+  "insensitive_bits": 1,
+  "activation_bits": 8,
+  "layers_ranked_high_to_low_sensitivity": [
+    {
+      "layer": "classifier",
+      "sensitivity": 0.0027726898107083287,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.3.attention.v_lin",
+      "sensitivity": 4.0535800805638345e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.2.attention.v_lin",
+      "sensitivity": 3.6439821744886636e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.4.attention.v_lin",
+      "sensitivity": 2.3386348613919222e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.1.attention.v_lin",
+      "sensitivity": 2.2593412885088537e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "pre_classifier",
+      "sensitivity": 2.2091343110514083e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.0.ffn.lin1",
+      "sensitivity": 1.0198373466500238e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.1.attention.out_lin",
+      "sensitivity": 1.0051544415724811e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.0.attention.out_lin",
+      "sensitivity": 9.085496234908022e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.3.ffn.lin1",
+      "sensitivity": 8.856462633708914e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.1.ffn.lin1",
+      "sensitivity": 8.303932539175524e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.5.attention.v_lin",
+      "sensitivity": 7.335567343766392e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.2.ffn.lin1",
+      "sensitivity": 7.07843430304729e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.4.attention.out_lin",
+      "sensitivity": 6.979339660468861e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.2.attention.out_lin",
+      "sensitivity": 6.972395006797291e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.0.attention.v_lin",
+      "sensitivity": 6.746178142936349e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.4.ffn.lin1",
+      "sensitivity": 5.26222473210252e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.3.attention.out_lin",
+      "sensitivity": 4.1151411239118835e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.5.attention.out_lin",
+      "sensitivity": 3.954020523903347e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.0.ffn.lin2",
+      "sensitivity": 2.3509473642672508e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.1.ffn.lin2",
+      "sensitivity": 2.3384858579720766e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.4.attention.q_lin",
+      "sensitivity": 2.2940643738572804e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.4.attention.k_lin",
+      "sensitivity": 2.059353013666044e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.2.ffn.lin2",
+      "sensitivity": 1.9009322966049257e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.4.ffn.lin2",
+      "sensitivity": 1.8678586429432195e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.5.attention.q_lin",
+      "sensitivity": 1.81164476593834e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.2.attention.q_lin",
+      "sensitivity": 1.7611299986711963e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "distilbert.transformer.layer.2.attention.k_lin",
+      "sensitivity": 1.6995920540776102e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.3.ffn.lin2",
+      "sensitivity": 1.6807029279907685e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.5.attention.k_lin",
+      "sensitivity": 1.6040988376893285e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.5.ffn.lin1",
+      "sensitivity": 1.516944584094987e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.3.attention.q_lin",
+      "sensitivity": 1.3676103267229196e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.3.attention.k_lin",
+      "sensitivity": 1.1330234233166217e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.5.ffn.lin2",
+      "sensitivity": 1.1034244943946246e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.1.attention.q_lin",
+      "sensitivity": 1.0732496175060082e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.0.attention.q_lin",
+      "sensitivity": 1.0607449461581386e-07,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.0.attention.k_lin",
+      "sensitivity": 9.29871502941635e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "distilbert.transformer.layer.1.attention.k_lin",
+      "sensitivity": 8.642187165707306e-08,
+      "assigned_weight_bits": 1
+    }
+  ]
+}

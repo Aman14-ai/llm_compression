@@ -1,0 +1,362 @@
+{
+  "method": "HAQ",
+  "model": "GPT2",
+  "policy_description": "Hardware-aware mixed precision using weight count as hardware-cost proxy and gradient-square as sensitivity proxy.",
+  "calibration_samples": 512,
+  "low_bits": 4,
+  "mid_bits": 6,
+  "high_bits": 8,
+  "activation_bits": 8,
+  "low_bit_fraction": 0.35,
+  "mid_bit_fraction": 0.35,
+  "bit_assignment_counts": {
+    "6": 17,
+    "8": 15,
+    "4": 17
+  },
+  "ranked_layers_high_to_low_hardware_benefit": [
+    {
+      "layer": "transformer.h.11.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 1.9753613463358764e-08,
+      "haq_hardware_benefit_score": 21.0,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.10.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.8542534876965553e-08,
+      "haq_hardware_benefit_score": 20.99992965217856,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.9.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.9470479601013554e-08,
+      "haq_hardware_benefit_score": 20.999922224799832,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.10.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 4.837808374580959e-08,
+      "haq_hardware_benefit_score": 20.999770887256187,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.8.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 4.8574092319788275e-08,
+      "haq_hardware_benefit_score": 20.999769318403786,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.9.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 5.069456310371333e-08,
+      "haq_hardware_benefit_score": 20.999752346173068,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.11.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 5.221248711645791e-08,
+      "haq_hardware_benefit_score": 20.999740196738603,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.7.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 6.362962479100723e-08,
+      "haq_hardware_benefit_score": 20.99964881463979,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.8.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 8.135815930045712e-08,
+      "haq_hardware_benefit_score": 20.99950691806801,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.7.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 8.377470466633592e-08,
+      "haq_hardware_benefit_score": 20.99948757654433,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.6.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 8.402868409646925e-08,
+      "haq_hardware_benefit_score": 20.999485543748158,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.6.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 1.2528342134576921e-07,
+      "haq_hardware_benefit_score": 20.99915535501959,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.5.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 1.3649216354334023e-07,
+      "haq_hardware_benefit_score": 20.999065645895787,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.0.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 1.693925278978796e-07,
+      "haq_hardware_benefit_score": 20.998802332386642,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.4.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 1.712302807700206e-07,
+      "haq_hardware_benefit_score": 20.998787624380807,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.3.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 1.923859545237888e-07,
+      "haq_hardware_benefit_score": 20.998618311601618,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.5.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.1401065249229733e-07,
+      "haq_hardware_benefit_score": 20.998445247956464,
+      "assigned_weight_bits": 4
+    },
+    {
+      "layer": "transformer.h.4.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.400363262558235e-07,
+      "haq_hardware_benefit_score": 20.998236966842935,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.2.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.6864080236139577e-07,
+      "haq_hardware_benefit_score": 20.998008052573653,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.3.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.759936961906582e-07,
+      "haq_hardware_benefit_score": 20.997949210060835,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.1.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.8702474514670975e-07,
+      "haq_hardware_benefit_score": 20.99786093323991,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.1.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 2.991798159658977e-07,
+      "haq_hardware_benefit_score": 20.997763662206786,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.0.mlp.c_proj",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 3.157021820123081e-07,
+      "haq_hardware_benefit_score": 20.997631443310325,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.2.mlp.c_fc",
+      "hardware_cost_num_weights": 2359296,
+      "sensitivity": 3.6151260956956883e-07,
+      "haq_hardware_benefit_score": 20.997264857781587,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.10.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 9.23326148076585e-08,
+      "haq_hardware_benefit_score": 15.99303867063707,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.11.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 1.1556861343066773e-07,
+      "haq_hardware_benefit_score": 15.992897034621572,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.1.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 1.57441737816154e-07,
+      "haq_hardware_benefit_score": 15.99264180154902,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.7.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 1.7222705439952417e-07,
+      "haq_hardware_benefit_score": 15.992551681207019,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.9.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 1.9366038836640044e-07,
+      "haq_hardware_benefit_score": 15.992421041276978,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.8.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 2.475378510325946e-07,
+      "haq_hardware_benefit_score": 15.992092658117285,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.2.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 3.952810672438018e-07,
+      "haq_hardware_benefit_score": 15.991192232337912,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.4.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 4.7464369757996863e-07,
+      "haq_hardware_benefit_score": 15.990708596097493,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.0.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 4.850302622687918e-07,
+      "haq_hardware_benefit_score": 15.990645302488542,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.6.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 4.892519675913955e-07,
+      "haq_hardware_benefit_score": 15.990619576419697,
+      "assigned_weight_bits": 6
+    },
+    {
+      "layer": "transformer.h.3.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 5.154917649437156e-07,
+      "haq_hardware_benefit_score": 15.990459679187298,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.5.attn.c_attn",
+      "hardware_cost_num_weights": 1769472,
+      "sensitivity": 7.108894429380414e-07,
+      "haq_hardware_benefit_score": 15.989269086560725,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.11.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 5.7873702698783133e-08,
+      "haq_hardware_benefit_score": 5.980356393845623,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.10.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 1.0110885473000678e-07,
+      "haq_hardware_benefit_score": 5.9802578458441475,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.7.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 1.245847719055057e-07,
+      "haq_hardware_benefit_score": 5.980204337395845,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.9.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 1.3952890523326295e-07,
+      "haq_hardware_benefit_score": 5.980170275865026,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.8.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 1.6390931633616509e-07,
+      "haq_hardware_benefit_score": 5.980114707458377,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.6.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 2.0629002880497255e-07,
+      "haq_hardware_benefit_score": 5.980018114799103,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.4.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 4.061725314903076e-07,
+      "haq_hardware_benefit_score": 5.979562591547831,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.1.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 4.469939224134265e-07,
+      "haq_hardware_benefit_score": 5.979469569963929,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.3.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 5.16436761136809e-07,
+      "haq_hardware_benefit_score": 5.979311334017758,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.5.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 5.508278614219791e-07,
+      "haq_hardware_benefit_score": 5.9792329718271295,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.2.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 5.559115617782775e-07,
+      "haq_hardware_benefit_score": 5.979221388484332,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.0.attn.c_proj",
+      "hardware_cost_num_weights": 589824,
+      "sensitivity": 6.721998126401252e-06,
+      "haq_hardware_benefit_score": 5.965204763217894,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "score",
+      "hardware_cost_num_weights": 3072,
+      "sensitivity": 0.0524726415461263,
+      "haq_hardware_benefit_score": -1.0,
+      "assigned_weight_bits": 8
+    }
+  ]
+}

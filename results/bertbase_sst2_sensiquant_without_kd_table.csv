@@ -1,0 +1,2 @@
+Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+BERT-Base,92.0872,0.996,5.2348,92.1289,92.0872,92.0876,191.0301,763.7663

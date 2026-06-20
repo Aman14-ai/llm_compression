@@ -1,0 +1,261 @@
+{
+  "method": "SensiMix",
+  "model": "GPT2",
+  "sensitivity_proxy": "mean squared gradient of quantizable layer weight on calibration data",
+  "calibration_samples": 512,
+  "binary_fraction": 0.3,
+  "sensitive_bits": 8,
+  "insensitive_bits": 1,
+  "activation_bits": 8,
+  "bit_assignment_counts": {
+    "8": 35,
+    "1": 14
+  },
+  "layers_ranked_high_to_low_sensitivity": [
+    {
+      "layer": "score",
+      "sensitivity": 0.11042932708005537,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.0.attn.c_proj",
+      "sensitivity": 1.1744009622785805e-05,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.0.attn.c_attn",
+      "sensitivity": 1.0268075061668595e-06,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.1.attn.c_proj",
+      "sensitivity": 9.958894697862362e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.2.attn.c_proj",
+      "sensitivity": 8.89125122949285e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.2.attn.c_attn",
+      "sensitivity": 7.900349595576801e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.0.mlp.c_proj",
+      "sensitivity": 6.945960569101862e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.1.mlp.c_fc",
+      "sensitivity": 6.265783325553112e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.1.mlp.c_proj",
+      "sensitivity": 5.968355907236267e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.1.attn.c_attn",
+      "sensitivity": 5.191586640675746e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.0.mlp.c_fc",
+      "sensitivity": 3.7587952083875014e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.3.attn.c_proj",
+      "sensitivity": 3.4069634294217046e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.5.attn.c_attn",
+      "sensitivity": 3.2053032774916014e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.5.attn.c_proj",
+      "sensitivity": 3.045107858388259e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.3.attn.c_attn",
+      "sensitivity": 2.9929039470897624e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.6.attn.c_attn",
+      "sensitivity": 2.6298831646637743e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.2.mlp.c_fc",
+      "sensitivity": 2.468975537902674e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.2.mlp.c_proj",
+      "sensitivity": 1.9576068964683238e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.3.mlp.c_fc",
+      "sensitivity": 1.8846415448937177e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.8.attn.c_attn",
+      "sensitivity": 1.8313494195315474e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.5.mlp.c_fc",
+      "sensitivity": 1.8277369596075236e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.4.attn.c_proj",
+      "sensitivity": 1.5413594664235642e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.9.attn.c_attn",
+      "sensitivity": 1.5361277456323844e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.4.attn.c_attn",
+      "sensitivity": 1.5335061007501352e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.11.attn.c_attn",
+      "sensitivity": 1.5309438009181902e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.4.mlp.c_fc",
+      "sensitivity": 1.5221491251216513e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.3.mlp.c_proj",
+      "sensitivity": 1.4288857110983909e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.6.mlp.c_fc",
+      "sensitivity": 1.2660991002255684e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.5.mlp.c_proj",
+      "sensitivity": 1.1310387639965969e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.4.mlp.c_proj",
+      "sensitivity": 1.1282505444452505e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.8.mlp.c_fc",
+      "sensitivity": 1.126628614053066e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.9.attn.c_proj",
+      "sensitivity": 1.1138153510977964e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.10.attn.c_attn",
+      "sensitivity": 1.0884369258513482e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.10.attn.c_proj",
+      "sensitivity": 1.0638501031281773e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.6.attn.c_proj",
+      "sensitivity": 1.0332212793711304e-07,
+      "assigned_weight_bits": 8
+    },
+    {
+      "layer": "transformer.h.8.attn.c_proj",
+      "sensitivity": 9.943168954942318e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.7.attn.c_attn",
+      "sensitivity": 9.529843752019841e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.7.mlp.c_fc",
+      "sensitivity": 9.503865784253e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.11.mlp.c_fc",
+      "sensitivity": 9.497774922868408e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.6.mlp.c_proj",
+      "sensitivity": 9.036883601818584e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.10.mlp.c_fc",
+      "sensitivity": 8.117212229764447e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.9.mlp.c_fc",
+      "sensitivity": 8.023048684324707e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.7.mlp.c_proj",
+      "sensitivity": 7.042051037019518e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.11.attn.c_proj",
+      "sensitivity": 6.878346663279718e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.8.mlp.c_proj",
+      "sensitivity": 6.410236053223234e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.7.attn.c_proj",
+      "sensitivity": 5.810439982582567e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.10.mlp.c_proj",
+      "sensitivity": 4.8184467304614544e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.9.mlp.c_proj",
+      "sensitivity": 4.1160213894527896e-08,
+      "assigned_weight_bits": 1
+    },
+    {
+      "layer": "transformer.h.11.mlp.c_proj",
+      "sensitivity": 3.943585764604044e-08,
+      "assigned_weight_bits": 1
+    }
+  ]
+}

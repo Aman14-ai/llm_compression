@@ -1,0 +1,21 @@
+{
+  "eval_loss": 0.32681638598442075,
+  "accuracy": 0.9,
+  "precision_weighted": 0.9006207662012173,
+  "recall_weighted": 0.9,
+  "f1_weighted": 0.8995835182503555,
+  "eval_samples": 1000,
+  "eval_time_sec": 1.8633499689167365,
+  "throughput_samples_per_sec": 536.6678383993279,
+  "latency_ms_per_sample": 1.8633499689167365,
+  "train_time_sec": 15.759247313952073,
+  "global_steps": 157,
+  "model_name": "distilbert/distilbert-base-uncased",
+  "dataset": "fancyzhx/ag_news",
+  "train_samples": 5000,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "num_epochs": 1,
+  "max_gpu_memory_allocated_gb": 1.6745,
+  "max_gpu_memory_reserved_gb": 1.8262
+}
