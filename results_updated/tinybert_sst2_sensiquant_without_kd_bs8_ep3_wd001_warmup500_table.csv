@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+SST2,TinyBERT,89.7936,6.9034,3.7917,89.8008,89.7936,89.7914,263.7329,543.1611

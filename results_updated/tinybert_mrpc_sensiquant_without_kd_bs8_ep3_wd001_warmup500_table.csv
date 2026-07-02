@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+MRPC,TinyBERT,78.1863,5.9934,2.407,79.2585,78.1863,78.5499,415.4534,159.6897

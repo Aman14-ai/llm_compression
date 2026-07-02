@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+SST2,DistilBERT,90.367,4.6152,6.5707,90.367,90.367,90.3665,152.1916,965.5835

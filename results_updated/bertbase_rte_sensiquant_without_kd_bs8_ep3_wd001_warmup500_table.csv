@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+RTE,BERT-Base,58.1227,6.1692,12.6226,65.4188,58.1227,50.195,79.223,585.2382

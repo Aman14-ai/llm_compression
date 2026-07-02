@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+STS-B,MobileBERT,49.5333,5.9758,9.8419,24.5355,49.5333,32.8161,101.6061,2376.608

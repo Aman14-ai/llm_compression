@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+WNLI,DistilBERT,45.0704,6.1418,8.4289,38.0193,45.0704,39.5083,118.6396,95.6492

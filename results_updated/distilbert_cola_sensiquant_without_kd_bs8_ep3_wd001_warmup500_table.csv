@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+COLA,DistilBERT,77.5647,6.1418,6.5384,77.0513,77.5647,75.3972,152.9416,1155.549

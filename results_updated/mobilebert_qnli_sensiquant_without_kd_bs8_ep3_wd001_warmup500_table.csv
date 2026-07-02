@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+QNLI,MobileBERT,49.46,5.97,9.8225,24.4629,49.46,32.7351,101.807,8801.4421

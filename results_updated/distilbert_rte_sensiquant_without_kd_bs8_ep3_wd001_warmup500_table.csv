@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+RTE,DistilBERT,52.3466,6.1418,6.9665,43.4645,52.3466,36.8482,143.5438,325.5708

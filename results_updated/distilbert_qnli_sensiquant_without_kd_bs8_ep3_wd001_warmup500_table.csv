@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+QNLI,DistilBERT,87.7174,6.1339,6.2838,87.7718,87.7174,87.7157,159.1391,5791.0486

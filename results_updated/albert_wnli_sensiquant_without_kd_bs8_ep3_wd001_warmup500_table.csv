@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+WNLI,ALBERT,53.5211,6.0168,15.933,52.0395,53.5211,51.9249,62.7628,185.0674

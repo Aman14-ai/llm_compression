@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+COLA,TinyBERT,69.1275,5.9973,1.1259,47.7861,69.1275,56.509,888.18,142.6748

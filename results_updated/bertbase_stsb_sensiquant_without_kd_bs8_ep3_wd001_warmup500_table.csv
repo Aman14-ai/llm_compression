@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+STS-B,BERT-Base,84.8,6.1692,11.9593,85.0352,84.8,84.7813,83.6172,3042.1751

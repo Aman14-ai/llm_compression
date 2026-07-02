@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+MRPC,ALBERT,68.3824,6.0168,14.1929,46.7615,68.3824,55.542,70.458,938.0558

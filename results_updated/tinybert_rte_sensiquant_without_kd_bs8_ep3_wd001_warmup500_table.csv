@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+RTE,TinyBERT,62.4549,6.0012,2.5915,63.0611,62.4549,61.2316,385.8729,121.3314

@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+WNLI,MobileBERT,56.338,5.97,11.9775,31.7397,56.338,40.604,83.4901,76.0709

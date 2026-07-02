@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+COLA,ALBERT,69.1275,6.0168,14.5719,47.7861,69.1275,56.509,68.6254,2564.987

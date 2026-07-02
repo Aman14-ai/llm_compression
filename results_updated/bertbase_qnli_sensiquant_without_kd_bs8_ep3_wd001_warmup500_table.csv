@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+QNLI,BERT-Base,91.2868,4.6504,12.1848,91.298,91.2868,91.287,82.0694,11262.7682

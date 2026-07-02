@@ -1,3 +1,5 @@
+import argparse
+
 import gc
 import json
 import math
@@ -18,8 +20,68 @@ from tqdm.auto import tqdm
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 
-RESULTS_DIR = Path("results")
-MODEL_DIR = Path("models/bertbase_sst2_full")
+MODEL_CONFIGS = {
+    "bertbase": {
+        "display_name": "BERT-Base",
+        "hf_name": "google-bert/bert-base-uncased",
+    },
+    "distilbert": {
+        "display_name": "DistilBERT",
+        "hf_name": "distilbert/distilbert-base-uncased",
+    },
+    "mobilebert": {
+        "display_name": "MobileBERT",
+        "hf_name": "google/mobilebert-uncased",
+    },
+    "albert": {
+        "display_name": "ALBERT",
+        "hf_name": "albert/albert-base-v2",
+    },
+    "tinybert": {
+        "display_name": "TinyBERT",
+        "hf_name": "huawei-noah/TinyBERT_General_4L_312D",
+    },
+}
+
+DATASET_CONFIGS = {
+    "sst2": {
+        "display_name": "SST2",
+        "hf_config": "sst2",
+        "text_fields": ("sentence",),
+        "num_labels": 2,
+    },
+    "qnli": {
+        "display_name": "QNLI",
+        "hf_config": "qnli",
+        "text_fields": ("question", "sentence"),
+        "num_labels": 2,
+    },
+    "mrpc": {
+        "display_name": "MRPC",
+        "hf_config": "mrpc",
+        "text_fields": ("sentence1", "sentence2"),
+        "num_labels": 2,
+    },
+}
+
+RESULTS_DIR = Path("results_updated")
+MODELS_DIR = Path("models_updated")
+
+DATASET_NAME = "nyu-mll/glue"
+
+MAX_LENGTH = 128
+
+BATCH_SIZE = 8
+TRAIN_BATCH_SIZE = 8
+LEARNING_RATE = 2e-5
+WEIGHT_DECAY = 0.01
+WARMUP_STEPS = 500
+NUM_EPOCHS = 3
+
+CALIBRATION_SAMPLES = 512
+CALIBRATION_BATCH_SIZE = 8
+
+
 OUTPUT_JSON = RESULTS_DIR / "bertbase_sst2_sensiquant_without_kd.json"
 OUTPUT_CSV = RESULTS_DIR / "bertbase_sst2_sensiquant_without_kd_table.csv"
 

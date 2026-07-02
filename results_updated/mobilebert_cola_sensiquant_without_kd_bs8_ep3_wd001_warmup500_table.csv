@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+COLA,MobileBERT,30.8725,5.9739,9.9981,9.5311,30.8725,14.5655,100.0188,1680.4101

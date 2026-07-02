@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+MRPC,BERT-Base,80.1471,6.1692,12.4346,79.6717,80.1471,79.1024,80.4207,856.0671

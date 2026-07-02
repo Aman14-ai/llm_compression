@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+QNLI,ALBERT,89.9872,6.0168,13.6592,89.9887,89.9872,89.9866,73.2105,12653.792

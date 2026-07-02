@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+RTE,ALBERT,58.8448,6.0168,14.3303,61.9026,58.8448,53.9822,69.782,665.2633

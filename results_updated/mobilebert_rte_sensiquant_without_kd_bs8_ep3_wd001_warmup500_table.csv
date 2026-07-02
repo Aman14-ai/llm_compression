@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+RTE,MobileBERT,52.7076,5.97,8.4822,27.7809,52.7076,36.3844,117.8941,324.1957

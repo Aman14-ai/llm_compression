@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+COLA,BERT-Base,82.1668,6.1692,12.1947,82.044,82.1668,81.0494,82.0025,2155.4387

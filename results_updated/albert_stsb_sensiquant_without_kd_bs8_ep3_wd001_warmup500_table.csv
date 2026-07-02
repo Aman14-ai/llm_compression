@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+STS-B,ALBERT,81.2,6.0168,13.8002,82.4954,81.2,81.033,72.4626,3508.8861

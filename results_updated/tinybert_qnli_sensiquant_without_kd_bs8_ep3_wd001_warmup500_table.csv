@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+QNLI,TinyBERT,84.7154,5.9934,2.0996,84.9487,84.7154,84.6978,476.2793,1940.9579

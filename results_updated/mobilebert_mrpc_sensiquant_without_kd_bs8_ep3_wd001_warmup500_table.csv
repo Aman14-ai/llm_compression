@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+MRPC,MobileBERT,31.6176,5.97,8.8393,9.9968,31.6176,15.1906,113.1308,529.5231

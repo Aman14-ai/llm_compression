@@ -1,0 +1,2 @@
+Dataset,Model Name,Accuracy,GPU Memory,Latency,Precision,Recall,F1 Score,Throughput,Energy
+MRPC,DistilBERT,81.3725,6.1418,6.7716,81.7277,81.3725,81.5172,147.6756,461.3236
